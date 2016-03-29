@@ -1,0 +1,59 @@
+\pdfminorversion=3
+\documentclass[a0paper]{mhh-poster}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{lipsum}
+\usepackage[backend=bibtex]{biblatex}
+\usepackage{multicol}
+
+\bibliography{bibliography}
+
+\gradient{white}{white}{0}
+\textmagnification{1.7}
+\titlemagnification{1.2}
+\institutemagnification{2}
+
+
+\title{This is a Long and Fancy \\
+       Title Spanning over Two Lines}
+
+\author[1]{First Author}
+\author[1]{Last Author}
+
+\affil[1]{Department of \LaTeX, Hannover Medical School, Hannover, Germany}
+
+\contact{contact: hbwinther@metalabs.de}
+
+\institute{Institution}
+
+
+\begin{document}
+
+\begin{multicols}{2}
+
+
+\section{Introduction}
+\lipsum[1]
+\cite{stallman99:telepolis}
+
+
+\section{Materials \& Methods}
+\lipsum[2]
+
+
+\section{Results \& Discussion}
+\lipsum[2]
+
+
+\section{Conclusion}
+\lipsum[1]
+
+
+\printbibliography
+
+\end{multicols}
+
+\end{document}

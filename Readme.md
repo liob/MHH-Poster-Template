@@ -7,15 +7,13 @@ This LaTeX template for scientific posters is not supported and in no way endors
 
 Features
 --------
-+-------------------------------------+-------------------------------------+
+
+| Feature                             | Description                         |
+| ----------------------------------- | ----------------------------------- |
 | \\textmagnification{float}          | globaly scale the body textsize     |
-+-------------------------------------+-------------------------------------+
 | \\titlemagnification{float}         | scale the title textsize            |
-+-------------------------------------+-------------------------------------+
 | \\institutemagnification{float}     | scale the institutes textsize       |
-+-------------------------------------+-------------------------------------+
 | \\gradient{color1}{color2}{degrees} | draw a background gradient function |
-+-------------------------------------+-------------------------------------+
 
 The template uses the [authblk] package for author and affiliation management.
 
